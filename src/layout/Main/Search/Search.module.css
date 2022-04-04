@@ -1,0 +1,24 @@
+.search{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    
+}
+
+.search a {
+    margin: 10px
+}
+
+
+.search a img {
+    margin-top: 20px;
+} 
+
+.search__filter{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 10px;
+
+     
+}

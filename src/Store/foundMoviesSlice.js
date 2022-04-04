@@ -28,11 +28,12 @@ const foundMoviesSlice = createSlice({
         },
 
         [getMoviesThunk.fulfilled]: (state, action) => {
+            state.isLoading = false
             state.movies = action.payload
         },
 
         [getMoviesThunk.rejected]: (state, action) => {
-            state.isLoading = false
+                console.error(action);
         },
         
 

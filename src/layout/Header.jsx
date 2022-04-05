@@ -7,9 +7,8 @@ const Header = () => {
             <nav className="brown darken-4">
                 <div className="nav-wrapper">
                     <img className="header-logo" src={logo}  />
-                    <a href="#" className="brand-logo">MyMovies</a>
+                    <div  className="brand-logo">MyMovies</div>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        
                     </ul>
                 </div>
             </nav>
@@ -17,4 +16,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header                        

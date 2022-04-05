@@ -53,10 +53,19 @@ const Search = () => {
         <>
             <div className={style.search}>
 
-                <input type="text" placeholder='Search movie' value={searchText} onKeyDown={(e) => getMovies(e)} onChange={handleText} />
-                {searchText ? <a className="waves-effect waves-light btn-large " onClick={(e) => getMovies(e) } >
+                <input  type="text" 
+                        placeholder='Search movie' 
+                        value={searchText} 
+                        onKeyDown={(e) => getMovies(e)} 
+                        onChange={handleText} />
+
+                 <a className="waves-effect waves-light btn-large " 
+                    disabled={searchText ? false : true}
+                    onClick={(e) => getMovies(e) } >
+
                     <img width={20} src={serachIcon} />
-                </a> : null}
+
+                </a> 
 
             </div>
 

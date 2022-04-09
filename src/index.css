@@ -31,3 +31,12 @@ nav{
   margin-top: 1000px;
   margin: 0 auto;
 }
+
+.card{
+  min-height: 620px;
+}
+
+.card .card-content{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
